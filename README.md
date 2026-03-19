@@ -8,6 +8,10 @@ This app predicts match results of the Premier League (England) using a Machine 
 - Containerized with Docker
 - CI: GitHub Actions (Lint / Build)
 
+## Demo Video
+
+[Watch the demo video](./example.mp4)
+
 ## Features
 
 - Display upcoming Premier League matches
@@ -42,7 +46,7 @@ docker compose up --build
 ```bash
 cd frontend
 npm install
-npm run dev
+npm start
 ```
 
 #### Backend
